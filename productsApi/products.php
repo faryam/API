@@ -19,7 +19,7 @@ class Product
     }
 
 
-    function readAllProducts()
+    public function readAllProducts()
     {
 
     // select all query
@@ -49,7 +49,7 @@ class Product
 
     }
 
-    function readProduct($id)
+    public function readProduct($id)
     {
 
     // select all query
